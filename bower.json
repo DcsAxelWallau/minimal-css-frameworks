@@ -1,0 +1,22 @@
+{
+  "name": "css-frameworks",
+  "homepage": "https://github.com/DcsAxelWallau/minimal-css-frameworks",
+  "authors": [
+    "axel.wallau@dcs-fuerth.de"
+  ],
+  "description": "DevDay May 2016",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pure": "^0.6.0"
+  }
+}
