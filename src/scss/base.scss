@@ -1,6 +1,6 @@
 // base.scss
 
-html,body {
+html, body {
   height: 100%;
 }
 
@@ -8,4 +8,26 @@ ul {
   padding: 0;
   border: 0;
   list-style-type: none;
+}
+
+.demo-content {
+  .entry {
+    position: relative;
+    background-color: #eee;
+    &:after {
+      position: absolute;
+      right: .75em;
+      bottom: 0.9em;
+      left: auto;
+      width: 40%;
+      min-width: 200px;
+      height: 20%;
+      display: block;
+      content: '';
+      z-index: -2;
+      box-shadow: 0 13px 8px #979797;
+      transform: rotate(4deg);
+    }
+  }
+
 }

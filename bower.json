@@ -18,6 +18,7 @@
   ],
   "dependencies": {
     "pure": "^0.6.0",
-    "base": "^2.8.3"
+    "base": "^2.8.3",
+    "normalize-css": "^4.1.1"
   }
 }

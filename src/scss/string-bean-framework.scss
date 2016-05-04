@@ -1,6 +1,6 @@
 // pure-framework.scss
 
-body.pure-framework {
+body.string-bean-framework {
 
   #layout {
     min-height: 100%;
@@ -14,24 +14,30 @@ body.pure-framework {
         padding: 10px;
       }
       li {
-        padding: 10px;
-        box-sizing: border-box;
+        display: inline-block !important;
+        text-align: left;
       }
     }
   }
 
   #main {
-    box-sizing: border-box;
-    padding: 15px;
     .demo-content {
-      display: flex;
       .entry {
         position: relative;
         margin: 5px;
         padding: 15px;
         box-sizing: border-box;
+        img {
+          max-width: 100%;
+        }
       }
     }
   }
 
+}
+
+@media screen and (min-width: 600px) {
+  body.string-bean-framework header {
+    min-height: calc(100vh - 0.5rem);
+  }
 }

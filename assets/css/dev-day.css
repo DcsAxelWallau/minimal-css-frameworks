@@ -1,3 +1,4 @@
+@import url(../../vendor/components/normalize-css/normalize.css);
 html, body {
   height: 100%; }
 
@@ -5,6 +6,23 @@ ul {
   padding: 0;
   border: 0;
   list-style-type: none; }
+
+.demo-content .entry {
+  position: relative;
+  background-color: #eee; }
+  .demo-content .entry:after {
+    position: absolute;
+    right: .75em;
+    bottom: 0.9em;
+    left: auto;
+    width: 40%;
+    min-width: 200px;
+    height: 20%;
+    display: block;
+    content: '';
+    z-index: -2;
+    box-shadow: 0 13px 8px #979797;
+    transform: rotate(4deg); }
 
 body.pure-framework #layout {
   min-height: 100%; }
@@ -22,10 +40,10 @@ body.pure-framework #main {
   body.pure-framework #main .demo-content {
     display: flex; }
     body.pure-framework #main .demo-content .entry {
+      position: relative;
       margin: 5px;
       padding: 15px;
-      box-sizing: border-box;
-      background-color: #eee; }
+      box-sizing: border-box; }
 
 body.base-framework #layout {
   min-height: 100%; }
@@ -44,5 +62,27 @@ body.base-framework #main .demo-content .entry {
   padding: 15px; }
   body.base-framework #main .demo-content .entry img {
     max-width: 100%; }
+
+body.string-bean-framework #layout {
+  min-height: 100%; }
+body.string-bean-framework header {
+  background-color: black;
+  color: white; }
+  body.string-bean-framework header nav#main-nav h1 {
+    padding: 10px; }
+  body.string-bean-framework header nav#main-nav li {
+    display: inline-block !important;
+    text-align: left; }
+body.string-bean-framework #main .demo-content .entry {
+  position: relative;
+  margin: 5px;
+  padding: 15px;
+  box-sizing: border-box; }
+  body.string-bean-framework #main .demo-content .entry img {
+    max-width: 100%; }
+
+@media screen and (min-width: 600px) {
+  body.string-bean-framework header {
+    min-height: calc(100vh - 0.5rem); } }
 
 /*# sourceMappingURL=dev-day.css.map */
