@@ -1,0 +1,37 @@
+// pure.scss
+
+body.pure {
+
+  #layout {
+    min-height: 100%;
+  }
+
+  header {
+    background-color: black;
+    color: white;
+    nav#main-nav {
+      h1 {
+        padding: 10px;
+      }
+      li {
+        padding: 10px;
+        box-sizing: border-box;
+      }
+    }
+  }
+
+  #main {
+    box-sizing: border-box;
+    padding: 15px;
+    .demo-content {
+      p {
+        margin: 5px;
+        padding: 15px;
+        box-sizing: border-box;
+        background-color: #eee;
+      }
+    }
+
+  }
+
+}
