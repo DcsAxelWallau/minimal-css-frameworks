@@ -1,0 +1,45 @@
+// bootstrap-framework.scss
+
+body.bootstrap-framework {
+  #layout {
+    min-height: 100%;
+  }
+
+  header {
+    background-color: black;
+    color: white;
+    nav#main-nav {
+      h1 {
+        padding: 10px;
+      }
+      li {
+        padding: 10px;
+        box-sizing: border-box;
+      }
+    }
+  }
+
+  #main {
+    box-sizing: border-box;
+    padding: 15px;
+    .demo-content {
+      //display: flex;
+      .entry {
+        position: relative;
+        margin: 5px;
+        padding: 15px;
+        box-sizing: border-box;
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+}
+
+@media (min-width: 768px) {
+  body.bootstrap-framework header {
+    min-height: 100vh;
+  }
+}

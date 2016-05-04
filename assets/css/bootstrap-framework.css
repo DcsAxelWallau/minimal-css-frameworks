@@ -24,30 +24,6 @@ ul {
     box-shadow: 0 13px 8px #979797;
     transform: rotate(4deg); }
 
-body.bootstrap-framework #layout {
-  min-height: 100%; }
-body.bootstrap-framework header {
-  background-color: black;
-  color: white; }
-  body.bootstrap-framework header nav#main-nav h1 {
-    padding: 10px; }
-  body.bootstrap-framework header nav#main-nav li {
-    padding: 10px;
-    box-sizing: border-box; }
-body.bootstrap-framework #main {
-  box-sizing: border-box;
-  padding: 15px; }
-  body.bootstrap-framework #main .demo-content .entry {
-    position: relative;
-    margin: 5px;
-    padding: 15px;
-    box-sizing: border-box; }
-    body.bootstrap-framework #main .demo-content .entry img {
-      max-width: 100%; }
-
-@media (min-width: 768px) {
-  body.bootstrap-framework header {
-    min-height: 100vh; } }
 body.pure-framework #layout {
   min-height: 100%; }
 body.pure-framework header {
@@ -109,4 +85,4 @@ body.string-bean-framework #main .demo-content .entry {
   body.string-bean-framework header {
     min-height: calc(100vh - 0.5rem); } }
 
-/*# sourceMappingURL=dev-day.css.map */
+/*# sourceMappingURL=bootstrap-framework.css.map */
