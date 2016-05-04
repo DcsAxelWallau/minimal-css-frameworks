@@ -1,4 +1,7 @@
 // pure.scss
+@import '/vendor/components/pure/base-min.css';
+@import '/vendor/components/pure/pure-min.css';
+@import '/vendor/components/pure/grids-responsive-min.css';
 
 body.pure {
 
@@ -24,6 +27,7 @@ body.pure {
     box-sizing: border-box;
     padding: 15px;
     .demo-content {
+      display: flex;
       p {
         margin: 5px;
         padding: 15px;

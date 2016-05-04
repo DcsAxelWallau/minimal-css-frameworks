@@ -1,3 +1,6 @@
+@import url(/vendor/components/pure/base-min.css);
+@import url(/vendor/components/pure/pure-min.css);
+@import url(/vendor/components/pure/grids-responsive-min.css);
 html, body {
   height: 100%; }
 
@@ -18,10 +21,12 @@ body.pure header {
 body.pure #main {
   box-sizing: border-box;
   padding: 15px; }
-  body.pure #main .demo-content p {
-    margin: 5px;
-    padding: 15px;
-    box-sizing: border-box;
-    background-color: #eee; }
+  body.pure #main .demo-content {
+    display: flex; }
+    body.pure #main .demo-content p {
+      margin: 5px;
+      padding: 15px;
+      box-sizing: border-box;
+      background-color: #eee; }
 
 /*# sourceMappingURL=dev-day.css.map */
