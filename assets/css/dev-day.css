@@ -1,32 +1,48 @@
-@import url(/vendor/components/pure/base-min.css);
-@import url(/vendor/components/pure/pure-min.css);
-@import url(/vendor/components/pure/grids-responsive-min.css);
 html, body {
   height: 100%; }
 
 ul {
   padding: 0;
-  border: 0; }
+  border: 0;
+  list-style-type: none; }
 
-body.pure #layout {
+body.pure-framework #layout {
   min-height: 100%; }
-body.pure header {
+body.pure-framework header {
   background-color: black;
   color: white; }
-  body.pure header nav#main-nav h1 {
+  body.pure-framework header nav#main-nav h1 {
     padding: 10px; }
-  body.pure header nav#main-nav li {
+  body.pure-framework header nav#main-nav li {
     padding: 10px;
     box-sizing: border-box; }
-body.pure #main {
+body.pure-framework #main {
   box-sizing: border-box;
   padding: 15px; }
-  body.pure #main .demo-content {
+  body.pure-framework #main .demo-content {
     display: flex; }
-    body.pure #main .demo-content p {
+    body.pure-framework #main .demo-content .entry {
       margin: 5px;
       padding: 15px;
       box-sizing: border-box;
       background-color: #eee; }
+
+body.base-framework #layout {
+  min-height: 100%; }
+body.base-framework header {
+  background-color: black;
+  color: white; }
+  body.base-framework header nav#main-nav h1 {
+    padding: 10px;
+    color: white; }
+  body.base-framework header nav#main-nav li {
+    padding: 10px;
+    box-sizing: border-box; }
+body.base-framework #main .demo-content .entry {
+  background-color: #eee;
+  margin: 5px;
+  padding: 15px; }
+  body.base-framework #main .demo-content .entry img {
+    max-width: 100%; }
 
 /*# sourceMappingURL=dev-day.css.map */

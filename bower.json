@@ -17,6 +17,7 @@
     "tests"
   ],
   "dependencies": {
-    "pure": "^0.6.0"
+    "pure": "^0.6.0",
+    "base": "^2.8.3"
   }
 }
