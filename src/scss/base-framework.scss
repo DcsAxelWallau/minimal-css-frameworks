@@ -23,6 +23,7 @@ body.base-framework {
 
   #main {
     .demo-content {
+      display: flex;
       .entry {
         background-color: #eee;
         margin: 5px;
